@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/Logo Vide.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2400c03a0b.js" crossorigin="anonymous"></script>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>LumoSky | Home</title>
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                <img src="assets/img/LumosSky.svg" style="width: 35%; margin-top: 7px;">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="" class="nav__link active-link">Acceuil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/faq/" class="nav__link">FAQs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Activitée</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/team/" class="nav__link">Equipe</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="assets/img/Logo Vide.svg" alt="nav image" class="nav__img">
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home">
+            <div class="home__shape-small"></div>
+            <div class="home__shape-big-1"></div>
+            <div class="home__shape-big-2"></div>
+
+            <div class="home__container container">
+                <div class="home__info">
+                    <h1 class="home__title">
+                        <span>Découvrez</span> <br>
+                        l'avenir<br>
+                        des feux d'artifices
+                    </h1>
+                    <p class="home__description">
+                        Une solution innovente et écologique.
+                    </p>
+                    <a href="#" class="home__button">EXPLORER</a>
+                </div>
+
+                <div class="home__group">
+                    <div class="home__images">
+                        <div class="home__img-eth">
+                            <img src="assets/img/Logo Vide.svg" alt="home image">
+                        </div>
+                        <div class="home__img-orbe">
+
+                        </div>
+                    </div>
+
+                    <div class="home__data">
+                        <div>
+                            <h2 class="home__data-number">0</h2>
+                            <span class="home__data-subtitle">Shows</span>
+                        </div>
+
+                        <div>
+                            <h2 class="home__data-number">0</h2>
+                            <span class="home__data-subtitle">Drones</span>
+                        </div>
+
+                        <div>
+                            <h2 class="home__data-number">5</h2>
+                            <span class="home__data-subtitle">Membres</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__counter">
+
+                    <div>
+                        <span class="home__counter-title">Premier Show dans :</span>
+
+                        <div class="home__counter-time">
+                            <div class="home__counter-counter">
+                                <h3 class="home__counter-number" id="day_countdown">loading ...</h3>
+                                <span class="home__counter-subtitle">jours</span>
+                            </div>
+                            <div class="home__counter-counter">
+                                <h3 class="home__counter-number" id="heures_countdown">loading ...</h3>
+                                <span class="home__counter-subtitle">heures</span>
+                            </div>
+
+                            <div class="home__counter-counter">
+                                <h3 class="home__counter-number" id="minutes_countdown">loading ...</h3>
+                                <span class="home__counter-subtitle">minutes</span>
+                            </div>
+
+                            <div class="home__counter-counter">
+                                <h3 class="home__counter-number" id="seconds_countdown">loading ...</h3>
+                                <span class="home__counter-subtitle">secondes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer-container container">
+          <!-- Logo -->
+          <div class="footer-section footer-logo">
+            <img src="assets/img/LumosSky.svg" alt="Logo">
+          </div>
+      
+          <!-- Réseaux sociaux -->
+          <div class="footer-section footer-social">
+            <a href="#" class="footer__social-icons" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer__social-icons" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="https://www.instagram.com/lumosky_droneshows/" class="footer__social-icons" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer__social-icons" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      
+          <!-- Formulaire de contact -->
+          <div class="footer-section footer__contact-form">
+            <h1>Contactez nous :</h1>
+            <form action="#">
+              <input type="text" name="name" placeholder="Nom">
+              <input type="email" name="email" placeholder="Email">
+              <textarea name="message" placeholder="Message"></textarea>
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="footer__copyright">
+          &copy; 2024 LumoSky. Tous droits réservés.
+        </div>
+      </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
