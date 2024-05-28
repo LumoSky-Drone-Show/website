@@ -631,6 +631,7 @@ img {
   flex-direction: column;
   width: 100%;
   font-size: 350%;
+  z-index: 1;
 }
 
 .faq__h2 {
