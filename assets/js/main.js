@@ -60,7 +60,7 @@ sr.reveal(`.home__data div`, { origin: 'right', interval: 100, delay: 1800 })
 /*=============== COUNTER BEFORE SHOW ===============*/
 
 // Définir la date cible pour le décompte
-var countDownDate = new Date("Augustus 25, 2024 14:39:00").getTime();
+var countDownDate = new Date("Augustus 25, 2024 20:30:00").getTime();
 
 // Mettre à jour le décompte toutes les secondes
 var x = setInterval(function () {
@@ -93,6 +93,7 @@ var x = setInterval(function () {
   }
 }, 1000);
 
+/*=============== FAQ ===============*/
 
 let question = document.querySelectorAll(".faq__question");
 
